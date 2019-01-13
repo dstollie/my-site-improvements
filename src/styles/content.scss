@@ -1,0 +1,210 @@
+/*
+  basecamp.com
+*/
+.site-basecamp {
+
+  .recording-breadcrumbs {
+    border: none;
+    box-shadow: none;
+    background: none;
+  }
+
+  .todo--assigned {
+    //background: #FAFAF3;
+    opacity: 0.4;
+    border-bottom: 2px solid white;
+  }
+
+  .todo--mine {
+    //background: #ffaa0033;
+    //display: block;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background: #ffe600;
+      width: 13px;
+      height: 13px;
+      top: 9px;
+      border-radius: 7px;
+      margin-left: -15px;
+    }
+  }
+
+  .todo--hide {
+    display: none;
+  }
+
+  .help-button {
+    display: none;
+  }
+
+  .nav__link--accounts {
+    display: none !important;
+  }
+
+  @media screen and (min-width: 992px) {
+    .panel--perma {
+        padding: 6rem;
+    }
+  }
+
+  .card--app {
+    height: 500px;
+  }
+
+  // Hide the completed items in the overview
+  .todos.completed {
+    display: none;
+  }
+
+  // .nav-menu__sheet {
+  //   left: 0 !important;
+  //   top: 0 !important;
+  //   width: 446px !important;
+  //   margin-left: 0 !important;
+  //   background: transparent !important;
+  //   max-height: inherit !important;
+  //   display: block !important;
+  // }
+
+  // .nav__link--pings {
+  //   display: none;
+  // }
+
+  .comments-balloon {
+    background: #34AADC;
+    height: 5px;
+    min-width: 5px;
+  }
+
+  .comments-balloon__count {
+    display: none;
+  }
+
+  .panel--perma, .panel--project {
+    max-width: 68em;
+  }
+
+  .thread-entry__avatar {
+    display: none;
+  }
+
+  .todo .todo__note {
+    display: none;
+  }
+
+  .todo__assignee {
+    color: lightgrey;
+    font-size: 11px;
+  }
+
+  .todo__assignee img {
+    display: none;
+  }
+
+  .todolist-group__header {
+    margin-top: 20px;
+  }
+}
+
+/*
+ tweakers.net
+*/
+.site-tweakers {
+  .mainColumn {
+    width: 939px !important;
+  }
+
+  .secondColumn, .billBoard, .leaderBoard, #categoryBar, #menubottombar, #search a, #true, #newsletter {
+    display: none !important;
+  }
+
+  .greyTopBorderBlock {
+    border-top: none;
+  }
+
+  table.highlights span, table.highlights label.unimportant {
+        font-size: 14px;
+  }
+
+  table.highlights td {
+    font-size: 16px;
+  }
+
+  #videos .useVisitedState {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/*
+ favro.com
+*/
+.site-favro {
+  .cardfield-attributes {
+    display: none;
+  }
+
+  .treecard-field-title {
+    width: 50%;
+  }
+
+  .widget-backlog-addcardwrapper {
+    width: 50%;
+  }
+
+  .widgetpane-backlogs {
+    width: 100% !important;
+  }
+
+  .widget-board-content {
+    width: calc(100% - 200px);
+  }
+
+  .workspacelink-notifications-counter {
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+    border: 1px solid hsla(0,0%,100%,.75);
+    align-items: center;
+    border-radius: 29px;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    min-width: 55px;
+    padding: 0 4px;
+    position: relative;
+    left: -800px;
+    top: -7px;
+    width: 55px;
+  }
+
+  .cardsymbol-description {
+    display: none !important;
+  }
+
+  .widget-board-lane-columns .card-relations {
+    display: none !important;
+  }
+
+  .board-column-wrapper {
+    max-width: 20% !important;
+    width: 20% !important;
+  }
+
+  .workspace {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc1da7+0,fba506+100 */
+    background: #fc1da7 !important; /* Old browsers */
+    background: -moz-linear-graolaredge_logindient(-45deg, #fc1da7 0%, #fba506 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fc1da7 0%,#fba506 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fc1da7 0%,#fba506 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1da7', endColorstr='#fba506',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+  }
+
+  .cardstatusbar {
+    min-height: 20px !important;
+  }
+
+  .cardeditor>.contentwrapper>.content {
+    max-width: 100% !important;
+  }
+}
