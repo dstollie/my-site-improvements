@@ -2,6 +2,7 @@ if(window.location.origin === 'https://3.basecamp.com') {
   require('./sites/basecamp/contentscript');
 }
 
+
 switch (window.location.origin) {
   case 'https://tweakers.net':
       document.body.className += ' site-tweakers';
@@ -14,3 +15,14 @@ switch (window.location.origin) {
       document.body.className += ' site-favro';
       break;
 }
+
+function updateFullScreenClass() {
+  if(!window.screenTop && !window.screenY) {
+    document.body.className += ' site-fullscreen';
+  }
+}
+
+window.addEventListener("resize", function(event) {
+  updateFullScreenClass();
+});
+updateFullScreenClass();

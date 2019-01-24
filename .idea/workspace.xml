@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbd4384f-440a-4d45-97ff-03f21888b100" name="Default" comment="Hide completed todos and make my own todos more prominent in screen">
+    <list default="true" id="cbd4384f-440a-4d45-97ff-03f21888b100" name="Default" comment="Renamed basecamp.com to basecamp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/contentscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/contentscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/content.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/contentscript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="315">
+              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="190" column="20" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="20" />
+            <state relative-caret-position="323">
+              <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,6 +64,8 @@
       <find>todo--mine</find>
       <find>mine</find>
       <find>basecamp.com</find>
+      <find>20px</find>
+      <find>calc</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -75,16 +78,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/scripts/sites/basecamp.com/modifications/updateTodo.js" />
-        <option value="$PROJECT_DIR$/src/styles/content.scss" />
         <option value="$PROJECT_DIR$/src/scripts/contentscript.js" />
+        <option value="$PROJECT_DIR$/src/styles/content.scss" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="20" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1053" />
@@ -95,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,11 +106,41 @@
               <item name="my-site-improvements" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-site-improvements" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-site-improvements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-site-improvements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-site-improvements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-site-improvements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-site-improvements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-site-improvements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-site-improvements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-site-improvements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-site-improvements" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-site-improvements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,18 +179,27 @@
       <workItem from="1546947980325" duration="256000" />
       <workItem from="1546962560855" duration="270000" />
       <workItem from="1546964282135" duration="3090000" />
-      <workItem from="1547483422359" duration="477000" />
+      <workItem from="1547483422359" duration="1145000" />
+      <workItem from="1548350601313" duration="1870000" />
     </task>
+    <task id="LOCAL-00001" summary="Renamed basecamp.com to basecamp">
+      <created>1547484032266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547484032266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15484000" />
+    <option name="totallyTimeSpent" value="18022000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.491654" visible="true" weight="0.2113951" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.491654" visible="true" weight="0.21352503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -170,7 +213,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32882413" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32882413" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -181,6 +224,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renamed basecamp.com to basecamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed basecamp.com to basecamp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/scripts/sites/basecamp.com/modifications/showPingsInTopLeft.js" />
@@ -203,17 +250,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/content.scss">
+    <entry file="file://$PROJECT_DIR$/src/scripts/contentscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="190" column="20" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/contentscript.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="323">
+          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
         </state>
       </provider>
     </entry>

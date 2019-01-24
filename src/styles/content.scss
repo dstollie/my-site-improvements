@@ -159,7 +159,7 @@
   }
 
   .widget-board-content {
-    width: calc(100% - 200px);
+    width: 100%;
   }
 
   .workspacelink-notifications-counter {
@@ -178,8 +178,13 @@
     width: 55px;
   }
 
+
   .cardsymbol-description {
     display: none !important;
+  }
+
+  .card.layout-board .cardfield.cardfield-attributes .symbollist {
+    display: none;
   }
 
   .widget-board-lane-columns .card-relations {
@@ -189,6 +194,10 @@
   .board-column-wrapper {
     max-width: 20% !important;
     width: 20% !important;
+  }
+
+  .memberlist {
+    margin-top: -40px !important;
   }
 
   .workspace {
@@ -206,5 +215,20 @@
 
   .cardeditor>.contentwrapper>.content {
     max-width: 100% !important;
+  }
+}
+
+.site-favro.site-fullscreen {
+  .card-title-text {
+    max-height: 37px;
+    overflow: hidden;
+  }
+
+  .workspace-widgets-toolbar {
+    display: none !important;
+  }
+
+  .workspace {
+    padding-top: 15px;
   }
 }
