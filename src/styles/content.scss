@@ -262,6 +262,10 @@
     display: none;
   }
 
+  .widget-title {
+    z-index: 3;
+  }
+
   .widget-title-icon {
     visibility: hidden;
   }
