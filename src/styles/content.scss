@@ -231,4 +231,42 @@
   .workspace {
     padding-top: 15px;
   }
+
+  .workspace-pagelist {
+    display: none;
+  }
+
+  .liveassistant {
+    display: none;
+  }
+
+  .paged-list-end {
+    display: none;
+  }
+
+  .widget-board {
+    margin-top: -48px;
+  }
+
+  .widget-title-arrow {
+    z-index: 1;
+    position: absolute;
+  }
+
+  .card.card-as-lane {
+    background-color: transparent;
+    border-bottom: none;
+  }
+
+  .card.card-as-lane .cardfield {
+    display: none;
+  }
+
+  .widget-title-icon {
+    visibility: hidden;
+  }
+
+  .widget-board .widget-board-lane-columns {
+    margin-top: 10px;
+  }
 }
