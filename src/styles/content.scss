@@ -142,6 +142,8 @@
  favro.com
 */
 .site-favro {
+  color: white !important;
+
   .cardfield-attributes {
     display: none;
   }
@@ -202,11 +204,128 @@
 
   .workspace {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc1da7+0,fba506+100 */
-    background: #fc1da7 !important; /* Old browsers */
-    background: -moz-linear-graolaredge_logindient(-45deg, #fc1da7 0%, #fba506 100%) !important; /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #fc1da7 0%,#fba506 100%) !important; /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #fc1da7 0%,#fba506 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1da7', endColorstr='#fba506',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+    //background: #fc1da7 !important; /* Old browsers */
+    //background: -moz-linear-graolaredge_logindient(-45deg, #fc1da7 0%, #fba506 100%) !important; /* FF3.6-15 */
+    //background: -webkit-linear-gradient(-45deg, #fc1da7 0%,#fba506 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    //background: linear-gradient(135deg, #fc1da7 0%,#fba506 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #202126 !important;
+    //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc1da7', endColorstr='#fba506',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+  }
+
+  //.old-skin .widget-minimized .widget-title, .old-skin .widget .widget-title {
+  //  background: #2C2D2F !important;
+  //}
+
+  .widget .widget-title .widget-title-content .widget-title-arrow .symbol-arrowhead-down {
+    fill: white !important;
+    stroke: white !important;
+  }
+
+  .widget-title:hover {
+    background: hsla(0, 0%, 100%, 0.35) !important;
+  }
+
+  .card.card-as-lane .cardfield,
+  .card.card-as-lane .cardfield.cardfield-title .card-quick-edit-title,
+  .card.card-as-lane .cardfield.cardfield-title .card-title-text,
+  .card.layout-board .cardfield.cardfield-title .card-quick-edit-title,
+  .card.layout-board .cardfield.cardfield-title .card-title-text,
+  textarea,
+  .cardeditor .cardheader .cardrelations .relation .text,
+  .mentions2 .title,
+  .mentions2 input.search
+  {
+    color: white !important;
+  }
+
+  .widget-title.mod-sticky,
+  textarea,
+  .cardeditor-topbar,
+  .cardeditor-popup,
+  .commentspane,
+  .tokenlist,
+  .popup-mentions
+  {
+    background: black !important;
+  }
+
+  .commentspane .cardcomment:not(.is-new) .details, .threadmenuentry .cardcomment:not(.is-new) .details {
+    background: #5f5f5f;
+  }
+
+  .tokenlist .token-member {
+    background-color: #cc4ace !important;
+  }
+
+  .board-column-title .board-column-title-box .board-column-title-wip {
+    background: white !important;
+  }
+
+  .board-column-title-box .board-column-title-wip {
+    color: black !important;
+  }
+
+  .board-column-addcard {
+    background-color: hsla(0, 0%, 100%, 0.06) !important;
+  }
+
+  .widget, .widget-minimized {
+    //background: hsla(0, 0%, 34%, 0.8) !important;
+    background: none !important;
+    color: white !important;
+  }
+
+  .widget-board {
+    overflow-x: hidden;
+  }
+
+  .widget-board-lane-columns {
+    width: 100% !important;
+  }
+
+  .card.treeview,
+  .fui-menu2,
+  .popup-content.fui-menu2-popup ,
+  .addmovecard .movelocation .title,
+  .ui-modal-header .close,
+  .ui-modal-header .title,
+  .search-widget-wrapper {
+    color: black !important;
+  }
+
+  .favro-checklistitem:hover,
+  .favro-checklistitem.is-active,
+  .cardeditor .document code,
+  .cardeditor .document pre {
+    background-color: #525252;
+  }
+
+  .ProseMirror.ProseMirror-focused .favro-checklistitem.is-active {
+    background-color: inherit;
+  }
+
+  .card.card-as-lane {
+    background: rgb(101, 101, 101) !important;
+    border-bottom: none;
+
+    .cardfield-customfields, .cardfield-attributes {
+      display: none !important;
+    }
+  }
+
+  .board-stickyheader {
+    background: black !important;
+    border: none !important;
+  }
+
+  .board-column-title .board-column-summaries,
+  .widget .widget-title .widget-title-content .widget-title-summaries{
+    color: white !important;
+  }
+
+  .card.layout-board {
+
+    background: #353535 !important;
   }
 
   .cardstatusbar {
@@ -215,6 +334,10 @@
 
   .cardeditor>.contentwrapper>.content {
     max-width: 100% !important;
+  }
+
+  .liveassistant {
+    display: none;
   }
 }
 
