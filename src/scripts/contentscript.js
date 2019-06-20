@@ -12,13 +12,13 @@ switch (window.location.origin) {
     require('./sites/basecamp/contentscript');
     break;
   case 'https://favro.com':
-      document.body.className += ' site-favro';
+      document.body.classList.add('site-favro');
       break;
 }
 
 function updateFullScreenClass() {
-  if(!window.screenTop && !window.screenY) {
-    document.body.className += ' site-fullscreen';
+  if(!window.screenTop && !window.screenY && document.body.classList.contains('site-fullscreen') === false) {
+    document.body.classList.add('site-fullscreen');
   }
 }
 

@@ -246,7 +246,30 @@
   .tokenlist,
   .popup-mentions
   {
-    background: black !important;
+    background: #202126 !important;
+  }
+
+  .cardeditor-topbar {
+    .topbar-activity:hover {
+      background-color: #797676 !important;
+    }
+  }
+
+  input.addtoken {
+    background: #929292;
+  }
+
+  .tokenlistpicker {
+    background-color: #929292 !important;
+    margin-top: 0px !important;
+
+    .title {
+      color: #e4e4e4;
+    }
+  }
+
+  .cardcomment-date {
+    color: #d8d8d8 !important;
   }
 
   .commentspane .cardcomment:not(.is-new) .details, .threadmenuentry .cardcomment:not(.is-new) .details {
@@ -262,7 +285,7 @@
   }
 
   .board-column-title-box .board-column-title-wip {
-    color: black !important;
+    color: #202126 !important;
   }
 
   .board-column-addcard {
@@ -290,7 +313,7 @@
   .ui-modal-header .close,
   .ui-modal-header .title,
   .search-widget-wrapper {
-    color: black !important;
+    color: #202126 !important;
   }
 
   .favro-checklistitem:hover,
@@ -314,7 +337,7 @@
   }
 
   .board-stickyheader {
-    background: black !important;
+    background: #202126 !important;
     border: none !important;
   }
 
