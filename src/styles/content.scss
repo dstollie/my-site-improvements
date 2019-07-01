@@ -216,6 +216,11 @@
   //  background: #2C2D2F !important;
   //}
 
+  .popup-design-default,
+  .popup-design-default .date {
+    background: #9e9e9e;
+  }
+
   .widget .widget-title .widget-title-content .widget-title-arrow .symbol-arrowhead-down {
     fill: white !important;
     stroke: white !important;
